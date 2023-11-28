@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import { useParams } from "react-router-dom";
-import {fetchPet} from "./fetchPet";
+import fetchPet from "./fetchPet";
 
 const Details = () => {
   const {id} = useParams();
